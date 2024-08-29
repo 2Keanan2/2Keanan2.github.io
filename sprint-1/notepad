@@ -1,0 +1,9 @@
+Common Git Comands and simple explanations:
+
+
+Git Pull:
+- git pull <remote> 
+"Fetch the copy on the Git-hub server and update the local version on your laptop"
+- git pull --no-commit <remote>
+- git pull --rebase <remote>
+- git pull --verbose
