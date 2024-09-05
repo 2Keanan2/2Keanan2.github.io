@@ -2,7 +2,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.2" />  <!--sets the screen " viewport" to the device width with no zoom or scale factor-->
   <body style="background-color: rgb(131, 131, 131);"> 
   <style>
-    .site-header {
+    /* .site-header {
     background-color: #ac0101;
     color: #ffffff;
     font-family: Roboto, sans-serif;
@@ -10,24 +10,51 @@
     line-height: 4;
     position: relative;
     text-size-adjust: 100%;
-    }
+    } */
 
     .heading2{
       font-family: monospace;
       font-size: 24px;
     }
+
+    #box-container{
+    background-color: #ac0101;
+    display:flex;
+    height: auto;
+    width: 100%;
+    }
+
+    .responsive{
+      height: auto;
+      width: 100%;
+    }
+
+    header .pagelogo{
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+    /* #logo-img{
+      position:relative;
+      height: auto;
+      width: 100%;
+      min-width: 25%;
+      min-height: 25%;
+    } */
+
   </style>
   <head>
-    <link rel="icon" href="/2Keanan2.github.io/assets/aoa.jpg" type="image/jpg">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
     <title>AoA Industries</title ><!-- self explanatory --> 
   </head>
   <div>
-    <body>
-      <header class="site-header">
-      <a href="https://2Keanan2.github.io/"><img src="/assets/aoa.jpg" alt="logo"></a> <!--logo links to main page-->
-      <a href="sp.html"> <img src="/assets/menu.png"></a>
-    </header>
-    </body>
+    <div>
+      <!-- <header class="site-header"> -->
+      <banner id="box-container" >
+      <a href="https://2Keanan2.github.io/"><img src="/assets/aoa.jpg" alt="logo" class="pagelogo"></a> <!--logo links to main page-->
+      <a href="sp.html" > <img src="/assets/menu.png" class="responsive"></a>
+      </banner>
+  </div>
     <h2>Pie or Pizza?</h2>
       <p>
         link
