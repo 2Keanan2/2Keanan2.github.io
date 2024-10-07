@@ -19,3 +19,22 @@ function CreateHtml() {
   
     return htmlContent;
   }  
+
+//   const topmenu = document.createElement('banner id="box-container" ');
+//   topmenu.innerHTML =
+//       <banner id="box-container" >
+//       <a href="https://2Keanan2.github.io/"><img src="/assets/aoa.jpg" alt="logo" class="pagelogo"></a> <!--logo links to main page-->
+//       <div class="dropdown">
+//       <a> <img src="/assets/menu-small.png" id="menu-img" class="dropdownbtn" ></a>
+//       <div class="dropdown-content" >
+//       <a href="sp.html">Blog 1 </a>
+//       <a href="Blog2.html">Blog 2 </a>
+//       <a href="goals.html">goals </a>
+//       <a href="#">Blog 4 </a>  
+//       </div>
+//       </div>
+//       </banner>
+//   ;
+
+//   const topweb = document.getElementById('webmenu');
+//  topweb.appendChild(topmenu);
