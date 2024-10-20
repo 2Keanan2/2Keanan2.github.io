@@ -177,7 +177,7 @@ header .pagelogo{
   /* Use absolute positioning */
   right: 12%;
   /* Align to the right side */
-  top: 50%;
+  top: 35%;
   /* Center vertically */
   transform: translateY(-50%);
   /* Adjust for vertical centering */
@@ -185,4 +185,39 @@ header .pagelogo{
   /* Add a border with desired width, style, and color */
   border-radius: 12px;
   /* Optional: add rounded corners */
+}
+
+.content-box {
+  /* position:left; */
+
+  width: 50%;
+  /* Set the width to 50% of the page */
+  margin:initial;
+  /* Center the box horizontally */
+  padding: 20px;
+  /* Add some padding for aesthetics */
+  border: 3px solid #200f0f;
+  /* Optional: Add a border */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  /* Optional: Add a shadow for depth */
+  background-color: #924f4f;
+  /* Optional: Set a background color */
+}
+
+.title-box {
+  /* position:center; */
+  min-width: none;
+  max-width:50%;
+  height: auto;
+  /* Set the width to 50% of the page */
+  margin: initial;
+  /* Center the box horizontally */
+  padding: 20px;
+  /* Add some padding for aesthetics */
+  border: 3px solid #200f0f;
+  /* Optional: Add a border */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  /* Optional: Add a shadow for depth */
+  background-color: #908f8f;
+  /* Optional: Set a background color */
 }
