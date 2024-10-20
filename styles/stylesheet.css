@@ -1,4 +1,49 @@
 /**/
+@media only screen and (max-width: 768px) {
+  .heading2 {
+    font-size: 20px;
+    /* Reduce font size for headings */
+    margin-bottom: 0.5rem;
+    /* Adjust margin */
+  }
+
+  .body {
+    background-color: rgb(211, 211, 211);
+    /* Lighter background for better readability */
+  }
+
+  #box-container {
+    flex-direction: column;
+    /* Stack items vertically */
+    align-items: center;
+    /* Center items */
+  }
+
+  .dropdownbtn {
+    padding: 12px;
+    /* Reduce padding for buttons */
+    font-size: 14px;
+    /* Smaller font size for buttons */
+  }
+
+  .dropdown-content a {
+    padding: 10px;
+    /* Adjust padding for dropdown links */
+  }
+
+  #logo-img {
+    min-width: 50%;
+    /* Adjust logo size */
+    min-height: auto;
+    /* Maintain aspect ratio */
+  }
+
+  .wordwrap {
+    width: 90vw;
+    /* Make word wrap wider on mobile */
+  }
+}
+
 .heading2{
     font-family: monospace;
     font-size: 24px;
