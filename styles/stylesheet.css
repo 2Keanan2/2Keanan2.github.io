@@ -140,19 +140,27 @@ header .pagelogo{
 
 #menu-img{
   margin-right: auto;
+  transition:all 1.5s ease;
 }
 
 #menu-img:hover{
-  animation-name: spin;
-  animation-duration: 2000ms;}
-  @keyframes spin {
-    from {
+    /* transform:rotateX('180'); */
+    /* animation: spin ease-in-out 1s; */
+    transform: rotate(180deg)
+  /* animation-name: spin; */
+  /* animation-duration: 2000ms; */
+}
+  /* @keyframes spin {
+    0% {
         transform:rotate(0deg);
     }
-    to {
+    50%{
+      transform:rotate(90deg);
+    }
+    100% {
         transform:rotate(180deg);
     }
-}
+} */
 
 .wordbreak{
   /* word-break: keep-all; */
